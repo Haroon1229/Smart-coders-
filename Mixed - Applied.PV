@@ -1,5 +1,4 @@
-**35. Check if a given character is an alphabet, digit, or special character**
-```python
+#35
 ch = input("Enter a character: ")
 if ch.isalpha():
     print("Alphabet")
@@ -9,7 +8,7 @@ else:
     print("Special character")
 
 
-**36. Read the cost price and selling price -- print profit, loss, or no profit no loss**
+#36 the cost price and selling price -- print profit, loss, or no profit no loss**
 ```python
 cp = float(input("Enter cost price: "))
 sp = float(input("Enter selling price: "))
@@ -21,8 +20,7 @@ else:
     print("No profit, no loss")
 
 
-**37. Given coordinates (x, y), determine which quadrant the point lies in**
-```python
+#37
 x = float(input("Enter x: "))
 y = float(input("Enter y: "))
 if x == 0 and y == 0:
@@ -41,8 +39,7 @@ else:
     print("Quadrant IV")
 
 
-**38. Check if a 3-digit number is an Armstrong number (e.g., 153)**
-```python
+#38
 n = int(input("Enter a 3-digit number: "))
 s = str(n)
 total = sum(int(d) ** 3 for d in s)
@@ -52,8 +49,7 @@ else:
     print(f"{n} is not an Armstrong number")
 
 
-**39. Given hours worked and rate, compute salary with overtime (>40 hrs at 1.5x rate)**
-```python
+#39
 hours = float(input("Enter hours worked: "))
 rate = float(input("Enter hourly rate: "))
 if hours > 40:
@@ -63,8 +59,7 @@ else:
 print(f"Salary: {salary:.2f}")
 
 
-**40. ATM Withdrawal: Approve or reject based on amount, balance, and minimum-balance rules**
-```python
+#40
 balance = float(input("Enter current balance: "))
 amount = float(input("Enter withdrawal amount: "))
 MIN_BALANCE = 500
@@ -81,8 +76,7 @@ else:
 
 
 
-**41. Clock Angle: Given hour and minute, calculate the smaller angle between the two hands**
-```python
+#41
 hour = int(input("Enter hour (0-12): "))
 minute = int(input("Enter minute (0-59): "))
 
@@ -94,8 +88,7 @@ angle = min(angle, 360 - angle)
 print(f"Angle between hands: {angle:.2f} degrees")
 
 
-**42. Scholarship Eligibility: Determine eligibility based on marks, attendance, and family income**
-```python
+#42
 marks = float(input("Enter marks percentage: "))
 attendance = float(input("Enter attendance percentage: "))
 income = float(input("Enter annual family income: "))
