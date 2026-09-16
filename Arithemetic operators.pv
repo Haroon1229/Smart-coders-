@@ -1,6 +1,4 @@
-**1. Read two numbers and print their sum, difference, product, quotient, and remainder**
-```python
-
+#1
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 print("Sum:", a + b)
@@ -10,16 +8,14 @@ print("Quotient:", a / b)
 print("Remainder:", a % b)
 
 
-**2. Calculate the area of a circle given radius (A = πr²)**
-```python
+#2
 import math
 r = float(input("Enter radius: "))
 area = math.pi * r ** 2
 print(f"Area: {area:.2f}")
 
 
-**3. Calculate simple interest given P, R, T → (P × R × T) / 100**
-```python
+#3
 p = float(input("Enter principal: "))
 r = float(input("Enter rate: "))
 t = float(input("Enter time: "))
@@ -27,9 +23,7 @@ si = (p * r * t) / 100
 print(f"Simple Interest: {si:.2f}")
 
 
-
-**4. Convert temperature from Celsius to Fahrenheit and vice versa**
-```python
+#4
 c = float(input("Enter temperature in Celsius: "))
 f = (c * 9/5) + 32
 print(f"{c}°C = {f}°F")
@@ -39,8 +33,7 @@ c2 = (f2 - 32) * 5/9
 print(f"{f2}°F = {c2:.2f}°C")
 
 
-**5. Divisibility Check: Check whether a number is divisible by 3, 5, both, or neither**
-```python
+#5
 n = int(input("Enter a number: "))
 if n % 3 == 0 and n % 5 == 0:
     print("Divisible by both 3 and 5")
